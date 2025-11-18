@@ -1,0 +1,17 @@
+2025-10-07 20:04:11,468 [INFO] Initializing Chrome WebDriver
+2025-10-07 20:04:11,468 [INFO] ====== WebDriver manager ======
+2025-10-07 20:04:11,655 [INFO] Get LATEST chromedriver version for google-chrome
+2025-10-07 20:04:11,704 [INFO] Get LATEST chromedriver version for google-chrome
+2025-10-07 20:04:11,741 [INFO] Driver [/Users/janesferrazza/.wdm/drivers/chromedriver/mac64/141.0.7390.65/chromedriver-mac-arm64/chromedriver] found in cache
+2025-10-07 20:04:12,646 [INFO] 🚀 Starting regression test
+2025-10-07 20:04:12,646 [INFO] Fetching sitemap: https://bumperdocbrooklyn.com/page-sitemap.xml
+2025-10-07 20:04:12,795 [WARNING] ⚠️ Error fetching sitemap from https://bumperdocbrooklyn.com/page-sitemap.xml: No URLs found in sitemap.
+2025-10-07 20:04:12,795 [INFO] Fetching sitemap: https://staging2.bumperdocbrooklyn.com/page-sitemap.xml
+2025-10-07 20:04:12,872 [WARNING] ⚠️ Error fetching sitemap from https://staging2.bumperdocbrooklyn.com/page-sitemap.xml: No URLs found in sitemap.
+2025-10-07 20:04:12,872 [WARNING] No target sitemap found — using homepage fallback.
+2025-10-07 20:04:12,873 [INFO] 📄 Comparing [missing source] → https://staging2.bumperdocbrooklyn.com/
+2025-10-07 20:04:12,873 [INFO] [1/2] Navigating to https://staging2.bumperdocbrooklyn.com/
+2025-10-07 20:04:21,931 [INFO] ✅ Saved screenshot: regression_report_bumperdoc/home/target.png
+2025-10-07 20:04:21,932 [INFO] 🧾 Generating HTML report
+2025-10-07 20:04:21,932 [INFO] ✅ HTML report generated: regression_report_bumperdoc/index.html
+2025-10-07 20:04:22,020 [INFO] WebDriver closed
