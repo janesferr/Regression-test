@@ -15,8 +15,8 @@ from pathlib import Path
 # ============================================================
 # CONFIGURATION
 # ============================================================
-SOURCE_SITE = "https://bumperdocbrooklyn.com"
-TARGET_SITE = "https://staging2.bumperdocbrooklyn.com"
+SOURCE_SITE = "https://janesferrazza.com"
+TARGET_SITE = "https://staging2.janesferrazza.com"
 
 SOURCE_SITEMAP_URL = f"{SOURCE_SITE}/page-sitemap.xml"
 TARGET_SITEMAP_URL = f"{TARGET_SITE}/page-sitemap.xml"
