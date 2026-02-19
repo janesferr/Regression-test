@@ -11,13 +11,13 @@ This repo/script runs a **visual regression test** between a **source (productio
 
 ## What it tests
 
-* **Source site:** `https://bumperdocbrooklyn.com`
-* **Target site:** `https://staging2.bumperdocbrooklyn.com`
+* **Source site:** ` put the website here....        `
+* **Target site:** ` put the website here....          `
 
 It fetches:
 
-* `https://bumperdocbrooklyn.com/page-sitemap.xml`
-* `https://staging2.bumperdocbrooklyn.com/page-sitemap.xml`
+* `https://www.janesferrazza.com/page-sitemap.xml`
+* `https://stagging.janesferrazza.com/page-sitemap.xml`
 
 Then it compares pages by **path** (example: `/about/` on both sites).
 
@@ -41,7 +41,7 @@ Inside you’ll get:
 Example:
 
 ```
-regression_report_bumperdoc/
+regression_report_website/
   index.html
   logs.txt
   about/
@@ -120,8 +120,8 @@ When finished, open the report:
 At the top of the script:
 
 ```python
-SOURCE_SITE = "https://bumperdocbrooklyn.com"
-TARGET_SITE = "https://staging2.bumperdocbrooklyn.com"
+SOURCE_SITE = "https://sourcesite.com"
+TARGET_SITE = "https://staging2.targetsource.com"
 REPORT_DIR = "regression_report_bumperdoc"
 HEADLESS = True
 RETRY_COUNT = 2
